@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+         <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- Custom Js -->
+        <script src="script/js.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link href="Script/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title> Login | Biblioteca </title>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="Script/css.css">
+        
+    </head>
+    <body>
+        <div name = "usr"  class="wrapper">
+            <form class="login" method="post" action="validaUsr.php">
+              <p class="title">Log in</p>
+              <input type="text" placeholder="Usuario" name="usuario"/>
+              <i class="fa fa-user"></i>
+              <input type="password" placeholder="Senha" name="senha"/>
+              <i class="fa fa-key"></i>
+              <!--<input type="submit" value="enviar">-->
+              <button>
+                <i class="spinner"></i>
+                <span class="state">Log in</span>
+              </button>
+            </form>
+            </p>
+          </div>
+
+    </body>
+</html>

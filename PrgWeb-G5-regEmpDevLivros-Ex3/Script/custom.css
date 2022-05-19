@@ -1,0 +1,30 @@
+
+/* ORDER DATE */
+.orderDate {
+    padding: 10px;
+    border: 1px solid var(--gray);
+}
+
+.orderDate h5 {
+    width: 145px;
+    margin-top: -24px;
+    background-color: var(--white);
+}
+
+/* END ORDER FORM */
+
+/* ORDER */
+.order {
+    padding: 10px;
+    border: 1px solid var(--gray);
+}
+
+.order h5 {
+    width: 65px;
+    margin-top: -24px;
+    background-color: var(--white);
+}
+
+.order .form-floating textarea {
+    height: 696px;
+}
